@@ -68,7 +68,7 @@ function storePassword(name, pass1, pass2) {
     person.name = name;     // Assign the name to the object
 
     // Check if the passwords are valid
-    if (pass1.length < 8 || pass2.length < 8) {
+    if (pass1.length < 8 || pagss2.length < 8) {
         console.log("Insufficient Number of Strings!")
     } else if (pass1 !== pass2) {
         console.log("Wrong Password!")
